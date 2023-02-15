@@ -1,0 +1,174 @@
+*{
+    padding: 0px;margin: 0px;box-sizing: border-box;
+}
+
+/* section 1 */
+.s1mdiv{
+    width: 1367px;height: 600px;
+    background-image: url(photo/homepage2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.menu{
+    display: flex;padding-top: 70px;flex-wrap: nowrap;
+}
+.menubar{
+    margin-left: 660px;
+}
+.logo{
+    font-size: 25px;color: white;font-weight: bold;margin-left: 80px;
+}
+.menubar a{
+    margin-left: 40px;font-size: 25px;color: white;
+    text-decoration: none;font-weight: bold;
+}
+.middle-content{
+    display: flex;text-align: center;justify-content: center;margin-top: 190px;
+}
+.leftarrow a{
+    margin-right: 170px;font-size: 30px;color: white;text-decoration: none;
+    border: 2px solid white;border-radius: 100%;padding: 15px;margin-top: 50px;
+}
+.rightarrow a{
+    margin-left: 170px;font-size: 30px;color: white;text-decoration: none;
+    border: 2px solid white;border-radius: 100%;padding: 15px;margin-top: 50px;
+}
+.middle-heading h1{
+    font-size: 60px;color: white;font-family: Arial, Helvetica, sans-serif;
+}
+.middle-heading p{
+    color: white;font-size: 18px;
+}
+.middle-heading button{
+    width:200px;height: 30px;background-color: transparent;border: 2px solid white;
+    margin-top: 25px;color: white;font-size: 15px;font-weight: bold;border-radius: 30px;
+}
+
+
+/* section 2 */
+.s2div1 h2{
+    font-family: Arial, Helvetica, sans-serif;font-weight: bold;
+    margin: 10px;margin-left: 500px;
+}
+
+
+/* section 3 */
+
+.s3div1{
+    display: grid;grid-template-columns: auto auto;
+}
+.s3div1 .watch{
+    background-image: url(photo/clock.jpg);width: 687px;height: 500px;
+    background-size: cover;background-repeat: no-repeat;
+}
+.s3div1 .application{
+    background-color: black;background-size: contain;
+    width: 680px;height: 500px;
+}
+.s3div1 .meet-team{
+    background-color: black;background-size: contain;
+}
+.s3div1 .photograph{
+    background-image: url(photo/camera.jfif);width: 680px;height: 500px;
+    background-size: cover;background-repeat: no-repeat;
+}
+.s3div1 .smock{
+    background-image: url(photo/smock2.jfif);width: 687px;height: 500px;
+    background-size: cover;background-repeat: no-repeat;
+}
+.s3div1 .what-we-do{
+    background-color: black;width: 680px;height: 500px;
+    background-size: contain;
+}
+.application{
+    padding-left: 40px;
+}
+.application h3{
+    color: white;font-family: Arial, Helvetica, sans-serif;padding-top: 90px;
+}
+.application p{
+    color: gray;font-family: Arial, Helvetica, sans-serif;padding-top: 20px;
+    width: 600px;
+}
+.application .s3a1{
+    margin-top: 20px;
+}
+.application a{
+    height: 30px;background-color: transparent;color: gray;font-size: 15px;padding: 5px;
+    border: 1px solid gray;border-radius: 10px;text-decoration: none;
+}
+.application .s3a2{
+    margin-top: 20px;
+}
+.s3a2 a{
+    background-color: rgb(247, 210, 6);color: black;border: none;padding: 5px;
+}
+.meet-team .application{
+    padding-top: 60px;
+}
+.what-we-do{
+    padding-left: 60px;
+}
+.what-we-do h3{
+    color: white;margin-top: 60px;
+}
+.what-we-do h4{
+    color: white;font-family: Arial, Helvetica, sans-serif;padding-top: 10px;padding-bottom: 10px;
+}
+.what-we-do .grid-div{
+    display: grid;grid-template-columns: auto auto;grid-gap: 50px;padding-top: 10px;
+}
+.grid-div div{
+    height: 120px;width: 250px;color: gray;
+}
+.s3div .s3a3{
+    margin-top: 20px;
+}
+.s3a3 a{
+    height: 30px;background-color: transparent;color: gray;font-size: 15px;padding: 5px;
+    border: 1px solid gray;border-radius: 10px;text-decoration: none;text-decoration: none;
+}
+
+
+
+/* section 4 */
+
+.s4div1{
+    display: flex;height: 300px;width: 1268px;margin-left: 100px;margin-top: 110px;
+}
+.s4div1 .pic1{
+    background-image: url(photo/profile5.png);height: 90px;width: 90px;background-size: contain;
+    margin-left: 20px;
+}
+.s4div1 p{
+    height: 250px;width: 350px;font-size: 20px;margin-left: 20px;
+}
+.s4div1 .pic2{
+    background-image: url(photo/profile3.png);height: 90px;width: 90px;background-size: contain;margin-left: 200px;
+}
+
+
+
+/* section 5 */
+.s5div1{
+    height:500px;width: 1367px;background-color: rgb(247, 210, 6);
+}
+.s5div2{
+    display: grid;margin-left: 180px;grid-template-columns: auto auto auto;
+}
+.s5div2 p{
+    height: 100px;width: 240px;font-family: Arial, Helvetica, sans-serif;color: black;
+}
+.footer-heading p{
+    font-size: 15px;padding-top: 60px;width: 420px;text-align: center;margin-left: 500px;
+}
+.s5a1 a{
+    text-decoration: none;color: white;padding: 5px;
+    border: 2px solid white;border-radius: 20px;
+}
+.a3 h3{
+    margin-top: 10px;margin-bottom: 5px;
+}
+.s5div2 div{
+    margin-top: 50px;
+}
